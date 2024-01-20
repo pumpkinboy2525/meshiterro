@@ -15,6 +15,7 @@ class PostimagesController < ApplicationController
   end
 
   def show
+    @post_image = PostImage.new
   end
   
   private
